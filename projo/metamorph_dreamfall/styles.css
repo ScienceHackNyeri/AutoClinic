@@ -1,0 +1,207 @@
+@import "css/reset.css";
+@import "css/skeleton.css";
+@import "css/superfish.css";
+@import "css/flexslider.css";
+@import "css/ui.totop.css";
+@import url(http://fonts.googleapis.com/css?family=Maiden+Orange);
+article,aside,audio,canvas,command,datalist,details,embed,figcaption,figure,footer,header,hgroup,keygen,meter,nav,output,progress,section,source,video{display:block}mark,rp,rt,ruby,summary,time{display:inline}
+/* Global properties ======================================================== */
+html {width:100%}
+
+body {font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:20px; color:#6e6c6c; background:#f5f5f5; -webkit-text-size-adjust: none;}
+
+.container_24
+{padding-top: 50px;}
+
+/*********************************fonts*************************************/
+.reg {text-transform:uppercase}
+.f_left {float:left}
+.f_right {float:right}
+.align_right {text-align:right}
+.align_center {text-align:center}
+
+.it{font-style:italic}
+.let{letter-spacing:-1px}
+
+/*********************************CLASSES**********************************/
+.m_bottom_zero{ margin-bottom:0 !important;}
+.m_left_zero{ margin-left:0 !important;}
+.p_bottom_zero{ padding-bottom:0 !important;}
+.p_left_zero{ padding-left:0 !important;}
+
+.clear {clear:both;width:100%;line-height:0;font-size:0;}
+.wrapper {width:100%;overflow:hidden}
+.extra_wrapper{ overflow:hidden;}
+.container{width:100%}
+.extra_last, .last{ margin-bottom:0 !important; padding-bottom:0 !important;}
+.extra_last{ border:none !important; background:none !important;}
+.bg_none{ background:none !important;}
+
+/*==================================== Links ======================================================== */
+a {color:#6e6c6c;outline:none; text-decoration:none; cursor:pointer;}
+a:hover{ color:#e45925; text-decoration:none;}
+
+.button{ display:inline-block; padding:6px 22px 8px; margin: 28px 0 0 0; font-size: 12px; line-height: 16px; color:#fff;background: url('images/button.png') repeat-x #E09A12;}
+.button:hover{ background:#ea7c4a; color:#fff;}
+
+/*********************************Displays*************************************/
+.block{ display:block;}
+.inline-block{ display:inline-block;}
+
+/*********************************header*************************************/
+
+header {background: url('images/back_all.jpg') no-repeat bottom; position: relative; z-index:10;}
+header h1{width:338px;float:left;}
+header h1 a {display:block;width:338px;height:56px; text-decoration:none; font-size: 30px; font-family: 'Maiden Orange', cursive;}
+
+header .top{background: url('images/header_top.jpg') repeat-x #ececec;padding: 38px 21px 14px 29px;overflow: hidden;}
+
+.top_bord{border-top: 3px solid #E09A12;}
+
+
+/*********************************content*************************************/
+#content {padding:27px 0px 57px 0px;position: relative; z-index:8; background: url(images/footer.png)}
+.cont_pad{padding:0 0 57px 0 !important;}
+
+/*===============================>> Paragraphs <<=============================*/
+
+p {margin-bottom:20px}
+.p2{ margin-bottom:14px;}
+.p3{ margin-bottom:11px;}
+.p4{ margin-bottom:24px;}
+.p5{ margin-bottom:7px;}
+.p6{ margin-bottom:4px;}
+.p7{ margin-bottom:30px;}
+.p8{ margin-bottom:20px;}
+
+/*================================>> LISTS <<========================================*/
+.list1{}
+.list1 li{ background:url(images/marker1.png) 0 8px no-repeat; margin-bottom:10px; padding-left:17px;}
+.list1 a:hover{color:#222222;}
+
+.list2{}
+.list2 li{ background:url(images/marker1.png) 0 8px no-repeat; padding-left:15px;border-bottom:1px solid #dfdfdf;margin-bottom:10px;padding-bottom:9px;}
+.list2 a{font-size:14px;}
+
+.last_li{border:none !important;padding-bottom:0 !important;margin-bottom:0 !important;}
+
+.list3{}
+.list3 li{ background:url(images/marker1.png) 0 8px no-repeat; margin-bottom:10px; padding-left:17px;}
+.list3 li a{color: #6e6c6c;}
+.list3 a:hover{color:#222222;}
+/*================================>> H <<========================================*/
+h2,h3,h4{ font-weight:normal; }
+h2{font-size: 25px; line-height: 30px; color:#434141;font-weight:600;letter-spacing:-1px; margin-bottom:23px; font-family: 'Maiden Orange', cursive;}
+h2 span{display:block;margin-top:-4px;}
+
+h2.ind{ margin-bottom:20px;}
+h2.ind1{ margin-bottom:25px;}
+h2.ind2{ margin-bottom:18px;}
+
+h3, .search_list h4{font-size: 30px; line-height: 36px; color:#f5f5f5; font-style:italic; font-weight:bold; letter-spacing:-1px;margin-bottom:6px;}
+.search_list h4{color:#6E6C6C;}
+/*================================>> GOOGLE FONTS  <<========================================*/
+.offer .title, .flexslider .banner .text, .manufacturing .title, h3, .search_list h4{font-family: 'Maiden Orange', cursive;}
+.sf-menu>li>a, h2, #menu-icon, .solution>figure{font-family: 'Open Sans', sans-serif;}
+
+/*================================>> hovers <<========================================*/
+.sf-menu>li>a, .sf-menu em, .list1 a, .button, footer a{-webkit-transition: all 0.5s ease;-moz-transition: all 0.5s ease;-o-transition: all 0.5s ease;transition: all 0.5s ease;}
+
+.flexslider li .banner{-webkit-transition: all 1.5s ease;-moz-transition: all 1.5s ease;-o-transition: all 1.5s ease;transition: all 1.5s ease;}
+/*********************************page*************************************/
+.ext_list>li, .ext_box{ overflow:hidden;}
+.ext_list>li>figure, .ext_box>figure{ float:left;}
+.ext_list>li>div, .ext_box>div{overflow:hidden;}
+
+.shadow{box-shadow: 0 0 14px #b6b6b6;}
+
+.offer_box{background:#fff;margin-bottom:39px;}
+.offer{color:#b1b1b1;padding: 47px 40px 36px 39px;}
+.offer .title{font-size: 30px; line-height: 36px; color: #434141;font-weight:bold;font-style:italic;letter-spacing:-1px;margin-bottom:16px;}
+.offer figure{margin-bottom:27px;}
+.bord_col{border-color: #fff;}
+
+.offer ul a{color:#b1b1b1;}
+
+.font1{font-size: 14px; line-height: 20px; color: #e45925;}
+a.font1:hover{color:#222222;}
+
+.pad_box{border-right:1px solid #dfdfdf;padding-right:40px;}
+
+.testimonials{margin-bottom:23px;}
+.testimonials>div{}
+.testimonials>figure{margin: 4px 19px 0 0;}
+
+/****************************footer************************/
+footer {background: url('images/footer_block.png') 50% 0 repeat-x;}
+footer .social{ overflow:hidden;float: right;padding: 0 25px 0 0;margin-top:-2px;}
+footer .social a{ display:block; float:left;width:30px;height:30px; overflow:hidden; margin-left:1px;}
+footer .social a:first-child{margin: 0 0 0 0;}
+footer .social a:hover img{ margin-top:-30px;}
+footer .social span{display:block;float: left;font-size:13px;text-transform:uppercase;color:#363636;padding: 6px 17px 0 0;}
+.footer_box{padding:24px 0 26px;}
+.f_menu{padding: 0 0 0 15px;overflow: hidden;float: left;}
+.f_menu>li{float: left;margin-right:16px;padding-left:17px;background: url('images/f_menu_li.jpg') 0 6px no-repeat;}
+.f_menu>li:first-child{background:none;}
+.f_menu a{color:#363636;font-size: 12px; line-height: 20px;display:inline-block;}
+.f_menu a:hover, .f_menu li.current a{color:#000;}
+
+footer .privacy{padding: 20px 0 20px 32px;}
+footer .privacy, footer .privacy a{color:#363636;}
+.f_logo{display:inline-block;margin: -2px 5px 0 0;}
+footer a:hover{color:#000;}
+
+/*==================================RESPONSIVE LAYOUTS===============================================*/
+@media only screen and (max-width: 995px) {
+ body{min-width:768px;}
+ .solution1>div{overflow: visible;}
+ .solution1>figure{float: none;margin:0 auto 20px;}
+ .project .text{padding: 12px 15px 23px 20px;}
+ #contact-form textarea, #contact-form input {width:335px;}
+ .shadow{box-shadow: none !important;}
+ .flexslider{height: 368px;}
+ .flex-control-nav{padding-bottom:10px;}
+ #search label{display: none;}
+ .testimonials>figure{float: none;margin-bottom: 15px;}
+ .testimonials>figure img{width: 100%;}
+}
+
+@media only screen and (max-width: 767px) {
+ body{min-width:420px;}
+ .manufacturing{padding:20px 30px;}
+ .manufacturing .title{padding-left:0;}
+ #search, header h1{float: none;}
+ header h1{margin-bottom:20px;}
+ .flexslider .banner .text{font-size:24px;line-height:29px;}
+ .offer_box{padding:10px 0;}
+ .offer{padding:10px 20px;border-color: #fff;}
+ img{width:100%;}
+ .flexslider{height: 204px;}
+ .offer_box .grid_8{margin-bottom:0;}
+ .pad_box{padding-right:0;border:none;}
+ footer .f_menu, footer .social{float: none;}
+ footer .f_menu{padding:0;}
+ footer .social{padding: 15px 0 0 17px ;}
+ footer .privacy{padding: 30px 20px 20px;}
+ .service2>li>div{overflow: visible;}
+ .solution1>div{overflow: hidden;}
+ .solution1>figure{float: left;margin:0 25px 2px 0;}
+  #contact-form textarea, #contact-form input {width:382px;}
+  .flex-control-paging{right:50%;margin-right:-50px;}
+  .flex-control-paging li{margin-left:10px;}
+  .flexslider .banner{display:none;}
+  .flexslider .flex-active-slide .banner{bottom:10px;}
+}
+
+@media only screen and (max-width: 479px) {
+ body{min-width:300px;}
+ header .top{padding:30px 13px;}
+ header h1{margin-bottom:0;}
+ header h1{width: auto;}
+ header h1 a{background-size: contain;width: auto;}
+ .flexslider .banner .text{font-size:18px;line-height:22px;}
+ .service2>li>figure{width:100%;float: none;margin-bottom:20px;}
+ #contact-form textarea, #contact-form input {width:262px;}
+ .f_menu, .flexslider .flex-active-slide .banner{display:none;}
+ .flexslider{height: 146px;}
+}

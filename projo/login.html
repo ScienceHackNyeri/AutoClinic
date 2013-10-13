@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+<link rel="stylesheet" type="text/css" href="css.css">
+<link rel="stylesheet" type="text/css" href="sign.css">
+<title>: Sign In</title>
+</head>
+
+<body>
+<center>
+<div id="header">
+<table width="100%"><tbody><tr>
+<td width="100%" style="text-align:left; background-image:url(../gallery.jpg);">
+</td></tr><tbody></table>
+</div>
+<div id="menu">
+<ul>
+ <li><a href="../home.html">Home &nbsp;</a> </li>
+ <li><a href="../hospitals.html">Sign up &nbsp;</a> </li>
+ <li> <a href="../login.html">Login &nbsp;</a> </li> 
+  </ul>
+</div>
+
+<div id="content">
+<form name="login" onSubmit="mbogo.html" action="#" method="post">
+E-Mail <br/> <input name="mail" type="text" size="40"> <br/>
+Password <br/> <input name="pword" type="password" size="40"><br/>
+<a href="#">forgot password</a><br/>
+<a href="doctor.html"><input name="goButton" type="button" value="Sign In"  /></a> &nbsp;
+<input name="rejectButton" type="reset" value="Reset" />
+
+</form>
+
+<script type="text/javascript">
+function validateForm(){
+var x=document.forms["login"]["mail"].value
+var y=document.forms["login"]["pword"].value
+if (x==null || x=="")
+{ 
+alert("please enter E-mail address");
+return false;}
+else if(y==null || y=="")
+{	alert("  please enter password");
+	return false;}
+else
+{	
+self.close();
+
+}
+</script>
+</div>
+<div id="footer">
+<table width="100%" border="0" cellspacing="0" cellpadding="2"><tbody><tr><td>
+<p><a href="../about.html">About Us</a> | <a href="#">Site Map</a> | <a href="#">Privacy Policy</a> | <a href="../contact.html">Contact Us</a></p>
+<p style="font-size: 0.8em"> &copy; 2013 Custom Fabricators. <a href="http://plus.google.com">Google+</a> &#149; <a href="http://www.facebook.com">Facebook</a></p>
+</td></tr></tbody></table>
+</div>
+</center>
+</body>
+</html>
